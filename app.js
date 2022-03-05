@@ -24,15 +24,3 @@ const generateHtml = (data) => {
   const pokemon = document.querySelector(".pokemon");
   pokemon.innerHTML = html;
 };
-// function generateHtml(data) {
-//   return `
-//      <div class="name">${data.name}
-//         <img src=${data.sprites.front_default}>
-//         <div class="details>
-//             <span>Height: ${data.height} </span>
-//             <span>Weight: ${data.weight} </span>
-//         </div>
-//     </div>
-//     `;
-
-// }
